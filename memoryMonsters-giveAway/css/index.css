@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 5px 0px 0 0;
+    border-top-color: burlywood;
+    width: 20%;
+}
+
+.aboutMe {
+    background-color: white;
+    text-align: start;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    margin: 20px 35% 20px 35%;
+}
+
+.divHeader {
+    background-image: url(https://images.pexels.com/photos/163848/road-mountains-sunset-path-163848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+
+}
+
+.h1Title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+
+img {
+    text-align: center;
+}
+.profilePic{
+    border-radius: 100%;
+    width: 35%;
+    float: left;
+} 
+
+.email{
+    font-size: 2rem;
+    color: brown;
+}
+
+h2{
+    display: block;
+}
+p{
+    display: block;
+    text-align: right;
+    font-size: 32px;
+}
+
+.buttonLink{
+    text-align: center;
+    margin: 20px 40% 20px 40%;
+    font-size: 40px;
+    background-color: brown;
+}

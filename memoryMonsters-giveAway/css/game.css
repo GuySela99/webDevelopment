@@ -1,0 +1,77 @@
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 10px solid darkcyan;
+    color:darkcyan;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.header img {
+    float:right;
+}
+
+.card {
+    background-color: pink;
+    height: 165px;
+    width: 165px;    
+    float: left;
+    margin: 5px;
+
+}
+
+.card img {
+    position: absolute;
+}
+
+.flipped .back {
+    display: none;
+}
+.buttonPlayAgain{
+    background-color: darkcyan;
+    height: 100px;
+    width: 250px;
+    font-size: 32px;
+    margin: 0 10% 0 19%;
+}
+.buttonLink{
+    background-color: darkcyan;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
+.visibilty{
+    visibility: hidden;
+}
+.container{
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    height: 400px;
+    width: 50%;
+    
+}
+body{
+    background-color: lightblue;    
+}
+#clock{
+    text-align: center;
+    margin-right: 5%;
+}
+h1{
+    text-align: center;
+    display: block;
+}
+.playerName{
+    text-align: center;
+    display: block;
+}
+.bestScore{
+    display: inline;
+    margin-left:10% ;
+}
+.bestScoreTime{
+   display: inline;
+}
